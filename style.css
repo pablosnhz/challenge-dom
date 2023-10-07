@@ -30,7 +30,7 @@ body {
 .nav__hamburguer {
     width: 30px;
     height: 50%;
-    background-image: url("../images/icon-menu.svg");
+    background-image: url("./images/icon-menu.svg");
     background-repeat: no-repeat;
     background-position: center;
     cursor: pointer;
