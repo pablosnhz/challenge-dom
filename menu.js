@@ -23,9 +23,6 @@ navOverlay.addEventListener('click', (e) => {
             let height = (subMenu.clientHeight == 0) ? subMenu.scrollHeight : 0;
 
             subMenu.style.height = `${height}px`;
-
-        }else{
-
         }
 
     }

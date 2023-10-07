@@ -130,3 +130,29 @@ body {
     padding: .7em 0;
     text-decoration: none;
 }
+
+/* MAIN */
+
+.main__grid {
+    overflow: hidden;
+
+    display: grid;
+    grid-template-columns: 5% 1fr 5%;
+    grid-template-areas: 
+    "img img img"
+    ".  text .  ";
+}
+
+.main__article {
+    padding: 56px 0;
+    text-align: center;
+    grid-area: text;
+}
+
+.main__title{
+    font-size: 2rem;
+}
+
+.main__img {
+    width: 100%;
+}
